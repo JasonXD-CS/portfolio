@@ -1,12 +1,12 @@
 import React from 'react';
-import 'css/App.css';
-import Header from './modules/header' 
-import ImageSection from './modules/BackgroundImage'
+import Landing from 'components/landing/Landing'
+import Introduction from 'components/intro/Introduction'
 
 function App() {
   return (
-    <div className="App">
-      <Header></Header> 
+    <div>
+      <Landing></Landing>
+      <Introduction></Introduction>
     </div>
   );
 }

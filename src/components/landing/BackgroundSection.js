@@ -8,13 +8,14 @@ const BackgroundImage = styled.div`
     position: relative;
     margin: 30px 30px;
     display: inline-block;
-    text-align: center;
     overflow: hidden;
     width: ${props => props.width};
     height: ${props => props.height};
     background: url(${props => props.image});
     background-size: cover;
     background-position: center
+`
+const LandingSection = styled.div`
 `
 
 const TitleSection = styled.div`

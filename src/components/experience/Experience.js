@@ -9,9 +9,9 @@ const ExperienceSection = styled.div`
 `
 const SectionTitle = styled.div`
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     padding-top: 40px;
-    margin-bottom: 40px
+    margin-bottom: 40px;
 `
 
 const JumbotronSection = styled.div`
@@ -36,7 +36,7 @@ const jobs = [
     {
         'companyLogo': require('static/hootsuiteLogo.png'),
         'companyName': 'Hootsuite',
-        'jobTitle': 'Software Developer Co-op',
+        'jobTitle': 'Software Developer Co-op - Full Stack',
         'jobDescription': 'Implemented image compression for uploaded image, which increased upload capacity by over 100%.\
         Created new UI component with React.js and maintained legacy code in AngularJS. Maintained code quality with clear documentation and improved Python unit tests coverage by 20%',
         'techStack': ['JavaScript', 'Docker', 'React.js', 'AngularJS', 'Python / Flask'],

@@ -13,7 +13,8 @@ const BackgroundImage = styled.div`
     height: ${props => props.height};
     background: url(${props => props.image});
     background-size: cover;
-    background-position: center
+    background-position: center;
+    top: 10vh;
 `
 const LandingSection = styled.div`
 `

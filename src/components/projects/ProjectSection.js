@@ -41,7 +41,7 @@ const projects = [
 
 
 const ProjectSection = () => {
-    return <ProjectWrapper>
+    return <ProjectWrapper id='projects'>
         <ProjectSectionTitle>Personal Projects</ProjectSectionTitle>
         <ProjectCardSection>
             {

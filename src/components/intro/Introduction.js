@@ -36,7 +36,7 @@ const AboutText = styled.p`
 
 const Introduction = () => {
     return <IntroSection>
-        <AboutSectionContainer  id="introduction">
+        <AboutSectionContainer id="introduction">
             <ProfileContainer></ProfileContainer>
             <AboutTextContainer>
                 <h1>Jason Wu</h1>

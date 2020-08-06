@@ -11,7 +11,6 @@ const HeaderSection = styled.div`
 position: relative;
 display: flex;
 left: 20%;
-margin-top: 5px;
 `
 
 
@@ -28,8 +27,26 @@ class Header extends React.Component {
                 offset={-70}
                 duration={500}>Jason Wu</Link>
             </HeaderText>
-            <HeaderText >Experience</HeaderText>
-            <HeaderText>Personal Projects</HeaderText>
+            <HeaderText >                
+                <Link
+                activeClass="active"
+                to="experience"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>Experience
+                </Link>
+            </HeaderText>
+            <HeaderText>
+            <Link
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>Personal Projects
+            </Link>
+            </HeaderText>
             <HeaderText>Contact</HeaderText>
            </HeaderSection>
        </div>

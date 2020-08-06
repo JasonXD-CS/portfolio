@@ -48,7 +48,7 @@ const jobs = [
 
 const Experience = () => {
 
-    return <ExperienceSection>
+    return <ExperienceSection id='experience'>
         <SectionTitle>Experience</SectionTitle>
         <JumbotronSection>
             <JumbotronContainer>

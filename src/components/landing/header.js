@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const HeaderText = styled.div`
     margin: 5px 30px;
@@ -18,7 +19,15 @@ class Header extends React.Component {
     render() {
        return <div className="App-header">
            <HeaderSection>
-            <HeaderText >Jason Wu</HeaderText>
+            <HeaderText >              
+                <Link
+                activeClass="active"
+                to="introduction"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>Jason Wu</Link>
+            </HeaderText>
             <HeaderText >Experience</HeaderText>
             <HeaderText>Personal Projects</HeaderText>
             <HeaderText>Contact</HeaderText>

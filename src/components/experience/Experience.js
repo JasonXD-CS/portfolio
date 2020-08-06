@@ -12,6 +12,7 @@ const SectionTitle = styled.div`
     font-size: 60px;
     padding-top: 40px;
     margin-bottom: 40px;
+    color: #232361;
 `
 
 const JumbotronSection = styled.div`

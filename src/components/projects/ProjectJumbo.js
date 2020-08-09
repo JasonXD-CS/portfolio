@@ -27,7 +27,7 @@ const TechStackItem = styled.div`
     display: inline-block;
     margin-bottom: 10px;
     margin-right: 20px;
-    background-color: #e3ffe8;
+    background-color: #ffc9d3;
     padding: 10px;
     border-radius: 10px;
 `

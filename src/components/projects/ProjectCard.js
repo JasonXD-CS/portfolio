@@ -12,7 +12,9 @@ const Card = styled.div`
 
 const ProjectImage = styled.img``
 
-const ProjectDescription = styled.p``
+const ProjectDescription = styled.p`
+    word-wrap: normal;
+`
 
 
 const ProjectCard = (props) => {
@@ -20,7 +22,7 @@ const ProjectCard = (props) => {
 
     return <Card>
         <ProjectImage src={project.image}></ProjectImage>
-<ProjectDescription>{project.description}</ProjectDescription>
+        <ProjectDescription>{project.description}</ProjectDescription>
     </Card>
 }
 

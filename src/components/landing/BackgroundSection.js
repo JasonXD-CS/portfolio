@@ -5,7 +5,6 @@ import { FaArrowAltCircleDown } from "react-icons/fa";
 const picture = require('static/jwxd.jpeg')
 
 const BackgroundImage = styled.div`
-    position: relative;
     margin: 30px 30px;
     display: inline-block;
     overflow: hidden;
@@ -21,11 +20,11 @@ const LandingSection = styled.div`
 
 const TitleSection = styled.div`
     display: inline-block;
+    position: absolute;
+    top: 20%;
     color: white;
     font-size: 50px;
     font-weight: 500;
-    position: absolute;
-    top: 25%;
     margin-left: 60px;
     text-align: center;
 `

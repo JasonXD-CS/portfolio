@@ -28,15 +28,21 @@ const projects = [
     '• Fetched snow condition data by utilizing API and web scraping from ski resort website with Node.js/ Cheerio',
     '• Built RESTful API with Node and Express that sends snow condition data to display on the front end',
     '• Contributed to npm package “snow-forecast-sfr” to fix the incorrect forecast data'],
-        'techStack': ['Kotlin', 'Docker', 'Kubernetes', 'AWS'],
+        'techStack': ['Node.js', 'Docker', 'Express', 'AWS', 'Vue.js', 'MongoDB'],
     },
     {
         'projectName': 'Parking Payment app',
         'description': ['• Hybrid application built with React Native, allow user to scan QRCode for payment',
         '• Built backend with Node.js and Express to handle routes and generate unique QRCode for parking lot',
         '• Connected application to MongoDB to store parking lot information when user submit registration form'],
-        'techStack': ['Kotlin', 'Docker', 'Kubernetes', 'AWS'],
-    }
+        'techStack': ['React Native', 'MongoDB', 'Node.js', 'express'],
+    },
+    {
+        'projectName': 'Portfolio',
+        'description': ['Personal portfolio website built using React.js, there\'s still a lot to be improved. I have some cool ideas', 
+        ' in mind to make it look better. Stay tuned!'],
+        'techStack': ['React.js', 'AWS'],
+    },
 ]
 
 

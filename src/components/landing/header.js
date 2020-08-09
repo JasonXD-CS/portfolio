@@ -5,20 +5,25 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const HeaderText = styled.div`
     margin: 5px 30px;
     font-size: 20px;
+    cursor: pointer;
 `;
 
 const HeaderSection = styled.div`
-position: relative;
-display: flex;
-left: 20%;
+    position: fixed;
+    display: flex;
+    z-index: 100;
+    top: 0;
+    color: white;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding-left: 20%;
 `
-
 
 class Header extends React.Component {
     render() {
-       return <div className="App-header">
-           <HeaderSection>
-            <HeaderText >              
+       return <HeaderSection>
+            <HeaderText>              
                 <Link
                 activeClass="active"
                 to="introduction"
@@ -48,8 +53,7 @@ class Header extends React.Component {
             </Link>
             </HeaderText>
             <HeaderText>Contact</HeaderText>
-           </HeaderSection>
-       </div>
+        </HeaderSection>
     }
 }
 

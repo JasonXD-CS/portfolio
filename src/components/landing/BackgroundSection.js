@@ -47,16 +47,22 @@ const AnimatedChevron = styled(FaArrowAltCircleDown)`
   color: white;
 `;
 
+const Container = styled.div`
+  justify-content: center;
+  align-items: center;
+`
+
 const BackgroundSection = (props) => {
-    return <div>
-        <BackgroundImage image={picture} width={props.width} height={props.height} >
-        </BackgroundImage>
+    return <Container>
+    <div>
+        <BackgroundImage image={picture} width={props.width} height={props.height} />
         <TitleSection>
             <Text>Hello, I'm Jason Wu</Text>
             <Text>and I'm a Software developer</Text>
             <AnimatedChevron></AnimatedChevron>
         </TitleSection>
     </div>
+    </Container> 
 }
 
 export default BackgroundSection

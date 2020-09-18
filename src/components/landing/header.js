@@ -52,7 +52,7 @@ class Header extends React.Component {
                 duration={500}>Personal Projects
             </Link>
             </HeaderText>
-            <HeaderText>Contact</HeaderText>
+            {/* <HeaderText>Contact</HeaderText> */}
         </HeaderSection>
     }
 }

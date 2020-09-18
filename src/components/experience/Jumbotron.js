@@ -47,7 +47,7 @@ const Jumbotron = (props) => {
     var detail = props.detail
 
     return <StyledJumbotron>
-        <CompanyLogo src={detail.companyLogo}></CompanyLogo>
+        {detail.companyLogo ? <CompanyLogo src={detail.companyLogo}></CompanyLogo>: null}
         <CompanyName>{detail.companyName}</CompanyName>
         <JobTitle>{detail.jobTitle}</JobTitle>
         <JobDescription>{detail.jobDescription}</JobDescription>

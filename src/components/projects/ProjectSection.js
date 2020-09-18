@@ -50,6 +50,7 @@ const projects = [
         'description': ['Personal portfolio website built using React.js, deployed with AWS Amplify.', 
         'There\'s still a lot to be improved. I have some cool ideas in mind to make it look better. Stay tuned!'],
         'techStack': ['React.js', 'AWS'],
+        'github': 'https://github.com/JasonXD-CS/portfolio',
     },
 ]
 

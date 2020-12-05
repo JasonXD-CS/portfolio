@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
-
+import { YoutubeLink } from '../projects/ProjectJumbo'
 
 const StyledJumbotron = styled.div`
     max-width: 60vw;
@@ -40,6 +39,9 @@ const TechStackItem = styled.div`
     padding: 10px;
     border-radius: 10px;
 `
+const LinkSection = styled.div`
+
+`
 
 const Duration = styled.p``
 
@@ -52,6 +54,9 @@ const Jumbotron = (props) => {
         <JobTitle>{detail.jobTitle}</JobTitle>
         <JobDescription>{detail.jobDescription}</JobDescription>
         {detail.techStack.map((item) => <TechStackItem>{item}</TechStackItem>)}
+        <LinkSection>
+            {detail.demoLink && <YoutubeLink link={detail.demoLink} />}
+        </LinkSection>
         <Duration>{detail.duration}</Duration>
     </StyledJumbotron>
 }

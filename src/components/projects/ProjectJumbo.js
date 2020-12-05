@@ -53,7 +53,7 @@ const GithubLink = (props) => {
     </GitHubContainer>)
 }
 
-const YoutubeLink = (props) => {
+export const YoutubeLink = (props) => {
     const { link } = props
 
     return (<GitHubContainer>

@@ -8,7 +8,6 @@ import Footer from 'components/footer/Footer'
 function App() {
   return (
     <div>
-      <Landing></Landing>
       <Introduction></Introduction>
       <Experience></Experience>
       <ProjectSection></ProjectSection>
